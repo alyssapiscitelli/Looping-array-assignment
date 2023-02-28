@@ -28,14 +28,5 @@ for ( var i = 1000; i >= 0 ; i-=2 )
 
 var tvShows= ['it crowd', 'inventing anna', 'the office', 'friends', 'how i met your father',];
 for (i = 0; i < 5;i++){
- console.log('My #1 favorite tv show is ' + tvShows[3]);
- 
- console.log('My #2 favorite tv show is '+tvShows[0]);
- 
- console.log('My #3 favorite tv show is '+tvShows[1]);
- 
- console.log('My #4 favortie tv show is '+ tvShows[2]);
-
- console.log('My #5 favorite tv show is '+ tvShows[4]);
-  break;
+ console.log('My #'+ (i+1) + ' favorite tv show is ' + tvShows[i]);
 }
